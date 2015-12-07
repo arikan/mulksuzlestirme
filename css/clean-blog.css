@@ -46,6 +46,10 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
+hr.divider {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 .navbar-custom {
   background: white;
   position: absolute;
@@ -221,13 +225,16 @@ hr.small {
 }
 .post-preview > a > .post-title {
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
+}
+.post-preview > a > img {
+  border: 1px solid #CCCCCC;
 }
 .post-preview > .post-meta {
   color: #808080;

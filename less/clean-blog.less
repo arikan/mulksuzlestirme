@@ -57,8 +57,12 @@ hr.small {
 }
 
 hr.divider {
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	@media only screen and (min-width: 768px) {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
 }
 
 // Navigation
@@ -245,11 +249,13 @@ hr.divider {
 			color: @brand-primary;
 		}
 		> .post-title {
-			font-size: 30px;
+			font-size: 24px;
 			margin-top: 20px;
 			margin-bottom: 10px;
 		}
 		> .post-subtitle {
+			font-size: 18px;
+			line-height: 120%;
 			margin: 0;
 			font-weight: 300;
 			margin-bottom: 10px;
@@ -278,6 +284,9 @@ hr.divider {
 		> a {
 			> .post-title {
 				font-size: 30px;
+			}
+			> .post-subtitle {
+				font-size: 24px;
 			}
 		}
 	}

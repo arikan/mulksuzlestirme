@@ -3,54 +3,18 @@ layout: page
 description: "Sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama"
 ---
 
+{% for post in paginator.posts %}
 <div class="post-preview">
-    <a href="https://graphcommons.com/graphs/09426282-c311-4b39-be2c-1bd4f93b5771" target="_blank">
+    <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
-            Türkiye Medya Sahipleri Ağı
+            {{ post.title }}
         </h2>
+        {% if post.subtitle %}
         <h3 class="post-subtitle">
-            İnşaat ve enerji ihaleleriyle beslenen medya patronları
+            {{ post.subtitle }}
         </h3>
+        {% endif %}
     </a>
-    <!-- <p class="post-meta">05 Temmuz 2015</p> -->
 </div>
 <hr>
-
-<div class="post-preview">
-    <a href="https://graphcommons.com/graphs/5d293d74-f1bd-46fe-b673-a597fcd0b21d" target="_blank">
-        <h2 class="post-title">
-            Termik Santraller Ağı
-        </h2>
-        <h3 class="post-subtitle">
-            Termik santral projelerini üstlenen/finansman sağlayan şirketler ve bu şirketlerin diğer yatırımları
-        </h3>
-    </a>
-    <!-- <p class="post-meta">01 Temmuz 2015</p> -->
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://graphcommons.com/graphs/cb82b0e5-0ad1-4003-bd74-6b6948dcd876" target="_blank">
-        <h2 class="post-title">
-            Soma madeni faciasının arkasında kimler var?
-        </h2>
-        <h3 class="post-subtitle">
-            13 Mayıs 2014 tarihinde Soma'da yer alan kömür madeninde meydana gelen faciada 301 işçi hayatını kaybetti ve 162 işçi yaralandı
-        </h3>
-    </a>
-    <!-- <p class="post-meta">01 Temmuz 2015</p> -->
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://graphcommons.com/graphs/cb82b0e5-0ad1-4003-bd74-6b6948dcd876" target="_blank">
-        <h2 class="post-title">
-            Ağaoğlu, TOKİ, Emlak Konut GYO Ortaklıkları
-        </h2>
-        <h3 class="post-subtitle">
-            Ağaoğlu İnşaat'un TOKİ ve Emlak Konut GYO'dan aldığı projeler
-        </h3>
-    </a>
-    <!-- <p class="post-meta">01 Temmuz 2015</p> -->
-</div>
-<hr>
+{% endfor %}

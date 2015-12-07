@@ -1,13 +1,13 @@
 # Site settings
-title: Clean Blog
+title: Mülksüzleştirme Ağları
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+email: mulksuzlestirme@gmail.com
+description: "Mulksuzlestirme aglari is here. It will be used as your sites meta description as well!"
+baseurl: "/mulksuzlestirme"
+url: "http://mulksuzlestirme.org"
+twitter_username: mulksuzlestirme
+github_username:  graphcommons
+facebook_username:  graphcommons
 
 # Build settings
 markdown: kramdown

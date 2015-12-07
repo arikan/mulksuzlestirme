@@ -3,35 +3,41 @@ layout: page
 description: "Sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama"
 ---
 
-{% for post in paginator.posts %}
 <div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
+    <a href="https://graphcommons.com/graphs/09426282-c311-4b39-be2c-1bd4f93b5771" target="_blank">
         <h2 class="post-title">
-            {{ post.title }}
+            Türkiye Medya Sahipleri Ağı
         </h2>
-        {% if post.subtitle %}
         <h3 class="post-subtitle">
-            {{ post.subtitle }}
+            İnşaat ve enerji ihaleleriyle beslenen medya patronları
         </h3>
-        {% endif %}
     </a>
-    <!-- <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p> -->
+    <!-- <p class="post-meta">05 Temmuz 2015</p> -->
 </div>
 <hr>
-{% endfor %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<div class="post-preview">
+    <a href="https://graphcommons.com/graphs/5d293d74-f1bd-46fe-b673-a597fcd0b21d" target="_blank">
+        <h2 class="post-title">
+            Termik Santraller Ağı
+        </h2>
+        <h3 class="post-subtitle">
+            Termik santral projelerini üstlenen/finansman sağlayan şirketler ve bu şirketlerin diğer yatırımları
+        </h3>
+    </a>
+    <!-- <p class="post-meta">01 Temmuz 2015</p> -->
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://graphcommons.com/graphs/cb82b0e5-0ad1-4003-bd74-6b6948dcd876" target="_blank">
+        <h2 class="post-title">
+            Ağaoğlu, TOKİ, Emlak Konut GYO Ortaklıkları
+        </h2>
+        <h3 class="post-subtitle">
+            Ağaoğlu İnşaat'un TOKİ ve Emlak Konut GYO'dan aldığı projeler
+        </h3>
+    </a>
+    <!-- <p class="post-meta">01 Temmuz 2015</p> -->
+</div>
+<hr>

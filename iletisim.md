@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "İletişim"
-description: ""
+description: "Mülksüzleştirme Ağları katılıma açıktır, beraber çalışmak ya da paylaşabileceğiniz veriler için konuşalım"
 header-img: "img/contact-bg.jpg"
 ---
 

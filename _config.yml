@@ -13,5 +13,5 @@ facebook_username:  graphcommons
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 20
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

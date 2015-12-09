@@ -1,9 +1,3 @@
-/*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2015 Start Bootstrap
- * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -30,7 +24,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #ffc000;
 }
 a img:hover,
 a img:focus {
@@ -125,14 +119,14 @@ hr.divider {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: #ffc000;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #ffc000;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -227,7 +221,7 @@ hr.divider {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #ffc000;
 }
 .post-preview > a > .post-title {
   font-size: 24px;
@@ -256,7 +250,7 @@ hr.divider {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #ffc000;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -266,6 +260,11 @@ hr.divider {
   .post-preview > a > .post-subtitle {
     font-size: 24px;
   }
+}
+.section-small {
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 20px;
 }
 .section-heading {
   font-size: 36px;
@@ -352,7 +351,7 @@ footer .license a img {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0085a1;
+  color: #ffc000;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -361,10 +360,14 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 1px;
   border-radius: 0;
   padding: 15px 25px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
 }
 .btn-lg {
   font-size: 16px;
@@ -372,9 +375,15 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #ffc000;
+  border: 1px solid #ffc000;
   color: white;
+}
+.btn-outline {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 15px;
 }
 .pager {
   margin: 20px 0 0;
@@ -400,8 +409,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #ffc000;
+  border: 1px solid #ffc000;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -414,12 +423,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #ffc000;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #ffc000;
 }
 img::selection {
   color: white;
@@ -430,5 +439,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+  webkit-tap-highlight-color: #ffc000;
 }

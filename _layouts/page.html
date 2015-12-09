@@ -11,6 +11,11 @@ layout: default
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <hr class="small">
                     <span class="subheading">{{ page.description }}</span>
+                    {% if page.action_link %}
+                        <a class="btn btn-default btn-outline" href="{{page.action_link}}" target="_blank" role="button">
+                            {{page.action_call}}
+                        </a>
+                    {% endif %}
                 </div>
             </div>
         </div>

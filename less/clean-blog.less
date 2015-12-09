@@ -294,6 +294,12 @@ hr.divider {
 
 // Sections
 
+.section-small {
+	font-size: 16px;
+	line-height: 150%;
+	margin-bottom: 20px;
+}
+
 .section-heading {
 	font-size: 36px;
 	margin-top: 60px;
@@ -405,10 +411,15 @@ form .row:first-child .floating-label-form-group {
 	.sans-serif;
 	text-transform: uppercase;
 	font-size: 14px;
-	font-weight: 800;
+	font-weight: 700;
 	letter-spacing: 1px;
 	border-radius: 0;
 	padding: 15px 25px;
+
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .btn-lg {
@@ -423,6 +434,13 @@ form .row:first-child .floating-label-form-group {
 		border: 1px solid @brand-primary;
 		color: white;
 	}
+}
+
+.btn-outline {
+	color: rgba(255, 255, 255, 1);
+	border: 1px solid rgba(255, 255, 255, 1);
+	background-color: rgba(255,255,255,0);
+	margin-top: 15px;
 }
 
 // Pager Styling

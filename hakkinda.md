@@ -2,7 +2,7 @@
 layout: page
 title: "Hakkında"
 description: "Sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama"
-header-img: "img/about-bg.jpg"
+header-img: "img/ihale-ortakliklar.jpg"
 ---
 
 Sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama çalışması Mülksüzleştirme Ağları’nın yeni sürümü çıktı (mulksuzlestirme.org). İlk versiyonu Eylül 2013'de yayınlanan çalışma 393 proje, 433 şirket ve 45 devlet kurumu ile binin üzerinde ihale ve ortaklık ilişkisi içeriyor. Bu sürümde Graph Commons ağ haritalama altyapısıyla desteklenen arayüz yenilendi; gelişmiş arama, filtreleme ve sosyal mecralarda paylaşma özellikleri eklendi.

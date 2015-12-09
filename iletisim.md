@@ -10,4 +10,6 @@ Mülksüzleştirme Ağları katılıma açıktır, aşama aşama devam etmektedi
 
 <a href="mailto:mulksuzlestirme@gmail.com">mulksuzlestirme@gmail.com</a>
 
+<hr>
+
 {% include newsletter.html %}

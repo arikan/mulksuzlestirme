@@ -14,3 +14,7 @@ Mülksüzleştirme Ağları katılıma açıktır. Çalışmalar aşama aşama d
 Haritalarda iş cinayetleri verileri [1Umut Derneği](http://www.birumut.org/) tarafından, azınlık mülklerine dair verilerin bir kısmı [Hrant Dink Vakfı](http://www.hrantdink.org/) araştırmasından, termik santraller hakkında verilerin bir kısmı [Ekoloji Kolektifi](http://iklimadaleti.org) tarafından sağlanmıştır.
 
 Ağ haritalama altyapısı <a href="http://graphcommons.com" target="_blank">Graph Commons</a> tarafından sağlamaktadır.
+
+<hr>
+
+{% include newsletter.html %}

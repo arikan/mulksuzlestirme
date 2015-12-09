@@ -31,3 +31,7 @@ Mülksüzleştirme Ağları katılıma açıktır, aşama aşama devam etmektedi
 Mülksüzleştirme Ağları hakkında gelişmelerinden haberdar olmak için <a href="https://twitter.com/mulksuzlestirme">@mulksuzlestirme</a> Twitter hesabını takip edebilirsiniz.
 
 *Mahalleme, meydanıma, ağacıma, suyuma, toprağıma, evime, tohumuma, ormanıma, köyüme, kentime, parkıma dokunma!*
+
+<hr>
+
+{% include newsletter.html %}

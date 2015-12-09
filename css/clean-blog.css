@@ -150,14 +150,14 @@ hr.divider {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 150px 0 50px;
+  padding: 120px 0 60px;
   color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 240px 0 160px;
+    padding: 200px 0 120px;
   }
 }
 .intro-header .site-heading,

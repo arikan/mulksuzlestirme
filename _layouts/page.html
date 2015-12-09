@@ -25,9 +25,28 @@ layout: default
 <!-- Main Content -->
 <div class="container">
 	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {% if page.action_link %}
+        <div class="col-lg-offset-1 col-md-8">
+        {% else %}
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {% endif %}
 			{{ content }}
 		</div>
+
+        {% if page.action_link %}
+        <div class="col-md-3">
+            <div class="section-sidebar text-muted">
+                Mülksüzleştirme Ağları veritabanı <a href="/kunye">gönüllüler</a> tarafından aşama aşama yürütülmektedir ve <a href="kunye/">katılıma açıktır</a>.
+                <br><br>
+                Mülksüzleştirme Ağları veritabanı şu anda
+                606 Şirket, 92 Karma Proje, 83 Termik Santral, 76 Konut, 60 Finansör, 60 AVM, 51 Kamu Kurumu, 38 Medya, 25 Otel, 22 Liman, 17 Elektrik Dağıtım, 14 HES, 10 Hastane, 9 Baraj, 9 Kamu Binası, 8 Havalimanı, 7 Metro, 6 Karayolu, 6 Maden, 5 Demiryolu, 4 Ofis, 4 Birlik, 3 Stadyum, 3 Gaz Dağıtım, 3 Kongre Merkezi, 3 Rafineri, 3 Tünel, 3 Dini Tesis, 3 Nükleer Santral, 2 Doğalgaz Santrali, 2 Fabrika, 2 Otopark, 2 Rüzgar Santrali, 2 Su İşleri, 2 Köprü, 2 Tren Garı, 1 Okul, 1 Park, 1 Müze, 1 Denizyolu, 1 Tüpgeçit, 1 İskele, 1 Meydan Düzenleme
+                içermektedir.
+                <br><br>
+                Burada veritabanından yapılmış harita seçkilerini görmektesiniz.
+                Ayrıca kendiniz veritabanından <a href="{{page.action_link}}" target="_blank">harita çıkarmak için tıklayın.</a>
+            </div>
+        </div>
+        {% endif %}
 	</div>
 </div>
 

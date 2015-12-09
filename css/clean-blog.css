@@ -261,10 +261,15 @@ hr.divider {
     font-size: 24px;
   }
 }
-.section-small {
-  font-size: 16px;
+.section-sidebar {
+  font-size: 14px;
   line-height: 150%;
-  margin-bottom: 20px;
+  padding-left: 0;
+}
+@media only screen and (min-width: 768px) {
+  .section-sidebar {
+    padding-left: 20px;
+  }
 }
 .section-heading {
   font-size: 36px;

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Künye & Katılım"
-description: "Mülksüzleştirme Ağları gönüllüler tarafından aşamalar halinde yürütülmekte ve katılıma açıktır"
+description: "Mülksüzleştirme Ağları gönüllüler tarafından aşamalar halinde yürütülmektedir ve katılıma açıktır"
 header-img: "img/post-bg-02.jpg"
 ---
 

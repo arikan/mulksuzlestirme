@@ -294,10 +294,14 @@ hr.divider {
 
 // Sections
 
-.section-small {
-	font-size: 16px;
+.section-sidebar {
+	font-size: 14px;
 	line-height: 150%;
-	margin-bottom: 20px;
+
+	padding-left: 0;
+	@media only screen and (min-width: 768px) {
+		padding-left: 20px;
+	}
 }
 
 .section-heading {

@@ -1,10 +1,10 @@
 ---
 layout: page
-lang: tr
-title: "Mülksüzleştirme Ağları"
-description: "Sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama"
+lang: en
+title: "Networks of Dispossession"
+description: "Collective data compiling and mapping on the relations of capital and power in Turkey"
 action_link: "https://graphcommons.com/hubs/mulksuzlestirme/explore"
-action_call: "Haritasını çıkar"
+action_call: "Explore"
 ---
 
 {% assign posts=site.posts | where:"lang", page.lang %}
@@ -31,12 +31,12 @@ action_call: "Haritasını çıkar"
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Sonraki</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Next</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Önceki &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous &rarr;</a>
     </li>
     {% endif %}
 </ul>

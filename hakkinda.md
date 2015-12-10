@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: tr
 title: "Hakkında"
 description: "Sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama"
 header-img: "img/ihale-ortakliklar.jpg"

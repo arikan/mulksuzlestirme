@@ -10,7 +10,7 @@ layout: default
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <hr class="small">
-                    <span class="subheading">{{ page.description }}</span>
+                    <div class="subheading">{{ page.description }}</div>
                     {% if page.action_link %}
                         <a class="btn btn-default btn-outline" href="{{page.action_link}}" target="_blank" role="button">
                             {{page.action_call}}
@@ -34,7 +34,7 @@ layout: default
 		</div>
 
         {% if page.action_link %}
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-4">
             <div class="section-sidebar text-muted">
                 Mülksüzleştirme Ağları çalışması <a href="{{ site.baseurl }}/kunye">gönüllüler</a> tarafından aşama aşama yürütülmektedir ve <a href="{{ site.baseurl }}/kunye">katılıma açıktır</a>.
                 <br><br>

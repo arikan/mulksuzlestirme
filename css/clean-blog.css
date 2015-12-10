@@ -69,11 +69,23 @@ hr.divider {
 .navbar-custom .navbar-brand {
   font-weight: 600;
 }
+.navbar-custom .navbar-right {
+  margin-right: 0;
+}
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
+}
+.navbar-custom .nav li.lang a {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.navbar-custom .nav li.lang a.current {
+  color: rgba(255, 255, 255, 0.5);
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {

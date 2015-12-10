@@ -3,7 +3,7 @@ title: Mülksüzleştirme Ağları
 header-img: img/3.Kopru-KuzeyMarmaraOtoyolu.jpg
 email: mulksuzlestirme@gmail.com
 description: "Mülksüzleştirme Ağları - Türkiye'de sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama"
-baseurl: "/mulksuzlestirme"
+baseurl: ""
 url: "http://mulksuzlestirme.org"
 twitter_username: mulksuzlestirme
 github_username:  graphcommons
@@ -15,3 +15,57 @@ highlighter: pygments
 permalink: pretty
 paginate: 20
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+permalink: /:title/
+
+# Language
+defaults:
+  -
+    scope:
+      path: "_posts/en"
+    values:
+      lang: en
+  -
+    scope:
+      path: "_posts/tr"
+    values:
+      lang: tr
+
+# Translate
+t:
+    en:
+        site_title:
+            name: "Networks of Dispossession"
+            url: "index.en.html"
+    tr:
+        site_title:
+            name: "Mülksüzleştirme Ağları"
+            url: "index.html"
+
+menu:
+  en:
+    about:
+        name: "About"
+        url: "about.html"
+    contact:
+        name: "Contact"
+        url: "contact.html"
+    credits:
+        name: "CREDITS & PARTICIPATION"
+        url: "credits.html"
+    send_project:
+        name: "Send Projects"
+        url: "https://docs.google.com/forms/d/1iwyTBNJ_V5OY4muGbhdAfzt1PpFuG9Fuj2e7erdZLpE/viewform"
+  tr:
+      about:
+          name: "Hakkında"
+          url: "hakkinda.html"
+      contact:
+          name: "İletişim"
+          url: "iletisim.html"
+      credits:
+          name: "Künye & Katılım"
+          url: "kunye.html"
+      send_project:
+          name: "Proje Bildir"
+          url: "https://docs.google.com/forms/d/1iwyTBNJ_V5OY4muGbhdAfzt1PpFuG9Fuj2e7erdZLpE/viewform"

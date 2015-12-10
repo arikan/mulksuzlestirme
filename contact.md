@@ -1,8 +1,8 @@
 ---
 layout: page
-lang: tr
-title: "İletişim"
-description: "Mülksüzleştirme Ağları katılıma açıktır, beraber çalışmak isterseniz ya da paylaşabileceğiniz veriler için konuşalım"
+lang: en
+title: "Contact"
+description: "Networks of Dispossession is open to participation"
 header-img: "img/contact-bg.jpg"
 ---
 

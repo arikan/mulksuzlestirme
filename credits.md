@@ -1,8 +1,8 @@
 ---
 layout: page
-lang: tr
-title: "Künye & Katılım"
-description: "Mülksüzleştirme Ağları gönüllüler tarafından aşamalar halinde yürütülmektedir ve katılıma açıktır"
+lang: en
+title: "Credits & Participation"
+description: "Networks of Dispossession is a voluntary research group"
 header-img: "img/post-bg-02.jpg"
 ---
 

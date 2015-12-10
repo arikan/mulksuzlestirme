@@ -80,6 +80,9 @@ hr.divider {
 	.navbar-brand {
 		font-weight: 600;
 	}
+	.navbar-right {
+		margin-right: 0;
+	}
 	.nav {
 		li {
 			a {
@@ -89,7 +92,21 @@ hr.divider {
 				letter-spacing: 1px;
 			}
 		}
+		li.lang {
+			a {
+				display: inline-block;
+				padding-right: 5px;
+				padding-left: 5px;
+				color: rgba(255, 255, 255b, 0.8);
+			}
+			a.current {
+				color: rgba(255, 255, 255b, 0.5);
+			}
+		}
 	}
+	// .en:lang(en), .tr:lang(tr){
+    // 	color: rgba(255, 255, 255b, 0.5);
+	// }
 	@media only screen and (min-width: 768px) {
 		background: transparent;
 		border-bottom: 1px solid transparent;

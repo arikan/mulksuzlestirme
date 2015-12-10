@@ -43,7 +43,7 @@ t:
             subscribe: "Subscribe"
         info: "Networks of Dispossession project is created by a <a href='{{ site.baseurl }}/kunye'>collective of volunteers</a> in phases and it is <a href='{{ site.baseurl }}/kunye'>open to contributions</a>.
             <br><br>
-            <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>The Networks of Dispossession database</a> is updated on December 10th, 2015 and contains in total
+            <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>The Networks of Dispossession database</a> is updated on <strong>December 10th, 2015</strong> and contains in total
             606 Company, Financing Organization, 51 Government Institution, 38 Media Firm, and 500 Project.
             <br><br>
             Projects are composed of
@@ -61,7 +61,7 @@ t:
             subscribe: "Abone ol"
         info: "Mülksüzleştirme Ağları çalışması <a href='{{ site.baseurl }}/kunye'>gönüllüler</a> tarafından aşama aşama yürütülmektedir ve <a href='{{ site.baseurl }}/kunye'>katılıma açıktır</a>.
             <br><br>
-            10 Aralık 2015 itibariyle güncellenen <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>Mülksüzleştirme Ağları veritabanı</a>
+            <strong>10 Aralık 2015</strong> itibariyle güncellenen <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>Mülksüzleştirme Ağları veritabanı</a>
             toplamda 606 Şirket, 60 Finansör, 51 Kamu Kurumu, 38 Medya ve 500 Proje içermektedir.
             <br><br>
             Projeler

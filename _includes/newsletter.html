@@ -1,13 +1,13 @@
 <div class="row control-group">
     <div class="form-group col-xs-12 controls">
         <div id="mc_embed_signup">
-            <label>Mülksüzleştirme Ağları Bülteni</label>
+            <label>{{ site.t[page.lang]['newsletter']['title'] }}</label>
             <form action="http://mulksuzlestirme.us8.list-manage.com/subscribe/post?u=017e36516e5c97ca3e0881958&amp;id=a7d989056f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div class="input-group mc-field-group text-center">
                 <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span> -->
-                <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control" placeholder="Email adresiniz" lang="en">
+                <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control" placeholder="{{ site.t[page.lang]['newsletter']['email'] }}" lang="{{ page.lang }}">
                 <span class="input-group-btn">
-                  <input type="submit" value="Abone ol" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default" lang="en">
+                  <input type="submit" value="{{ site.t[page.lang]['newsletter']['subscribe'] }}" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default" lang="{{ page.lang }}">
                 </span>
               </div>
               <div id="mce-responses" class="clear">

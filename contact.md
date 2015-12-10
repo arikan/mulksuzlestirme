@@ -3,12 +3,12 @@ layout: page
 lang: en
 title: "Contact"
 slug: "contact"
-description: "Networks of Dispossession is open to participation"
+description: "Networks of Dispossession is open to contributions"
 header-img: "img/contact-bg.jpg"
 ---
 
 
-Mülksüzleştirme Ağları katılıma açıktır, aşama aşama devam etmektedir. Beraber çalışmak isterseniz ya da kaynak verebileceğiniz veriler varsa email ile iletişime geçebilirsiniz:
+Networks of Dispossession is being developed in phases and open to contributions. If you'd like to work or contribute data please email us at:
 
 <a href="mailto:mulksuzlestirme@gmail.com">mulksuzlestirme@gmail.com</a>
 

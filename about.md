@@ -2,6 +2,7 @@
 layout: page
 lang: en
 title: "About"
+slug: "about"
 description: "Collective data compiling and mapping on the relations of capital and power in Turkey"
 header-img: "img/ihale-ortakliklar.jpg"
 ---
@@ -29,11 +30,9 @@ In the second version of Networks of Dispossession, there are new features to en
 
 What is more, you may click each node and find information such as the budget, the date, the image of the project, the connections of the given node, and if any, narratives of the labour crimes and references for each bits of these information on the Information box. You can also either take a screenshot of your path of traversal as jpeg or share the unique URL of your selected pathway by clicking the share button on the information box. This way, you will contribute in making these relations visible to the public.
 
-Networks of Dispossession is open to participation and will continue issuing new versions. If you would like to join us, or you have public information on our nodes and relations, you may contact us by email mulksuzlestirme@gmail.com.
+Networks of Dispossession is open to participation and will continue issuing new versions. If you would like to join us, or you have public information on our nodes and relations, you may contact us by email <a href="mailto:mulksuzlestirme@gmail.com">mulksuzlestirme@gmail.com</a>.
 
-Mülksüzleştirme Ağları hakkında gelişmelerinden haberdar olmak için <a href="https://twitter.com/mulksuzlestirme">@mulksuzlestirme</a> Twitter hesabını takip edebilirsiniz.
-
-*Mahalleme, meydanıma, ağacıma, suyuma, toprağıma, evime, tohumuma, ormanıma, köyüme, kentime, parkıma dokunma!*
+To get updates, follow Network of Dispossession follow us <a href="https://twitter.com/mulksuzlestirme">@mulksuzlestirme</a> on Twitter.
 
 <hr>
 

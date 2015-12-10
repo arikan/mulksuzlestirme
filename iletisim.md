@@ -2,6 +2,7 @@
 layout: page
 lang: tr
 title: "İletişim"
+slug: "contact"
 description: "Mülksüzleştirme Ağları katılıma açıktır, beraber çalışmak isterseniz ya da paylaşabileceğiniz veriler için konuşalım"
 header-img: "img/contact-bg.jpg"
 ---

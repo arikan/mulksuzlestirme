@@ -2,6 +2,7 @@
 layout: page
 lang: en
 title: "Contact"
+slug: "contact"
 description: "Networks of Dispossession is open to participation"
 header-img: "img/contact-bg.jpg"
 ---

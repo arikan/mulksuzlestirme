@@ -2,6 +2,7 @@
 layout: page
 lang: tr
 title: "Künye & Katılım"
+slug: "credits"
 description: "Mülksüzleştirme Ağları gönüllüler tarafından aşamalar halinde yürütülmektedir ve katılıma açıktır"
 header-img: "img/post-bg-02.jpg"
 ---

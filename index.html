@@ -2,28 +2,29 @@
 layout: page
 lang: tr
 title: "Mülksüzleştirme Ağları"
+slug: "home"
 description: "Sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama"
 action_link: "https://graphcommons.com/hubs/mulksuzlestirme/explore"
 action_call: "Haritasını çıkar"
 ---
 
-{% assign posts=site.posts | where:"lang", page.lang %}
-
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">
-        <img src="{{ post.header-img }}" alt="" />
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-</div>
-<hr class="divider">
+{% for post in site.posts %}
+    {% if page.lang == post.lang %}
+    <div class="post-preview">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">
+            <img src="{{ post.header-img }}" alt="" />
+            <h2 class="post-title">
+                {{ post.title }}
+            </h2>
+            {% if post.subtitle %}
+            <h3 class="post-subtitle">
+                {{ post.subtitle }}
+            </h3>
+            {% endif %}
+        </a>
+    </div>
+    <hr class="divider">
+    {% endif %}
 {% endfor %}
 
 <!-- Pager -->

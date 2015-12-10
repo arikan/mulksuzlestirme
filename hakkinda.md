@@ -2,6 +2,7 @@
 layout: page
 lang: tr
 title: "Hakkında"
+slug: "about"
 description: "Sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama"
 header-img: "img/ihale-ortakliklar.jpg"
 ---
@@ -27,7 +28,7 @@ Mülksüzleştirme Ağları ikinci sürümünde haritaların içindeki gezintini
 
 Bunun yanı sıra kişi, proje, şirket gibi düğümlerin üzerine tıklayarak sol üstte açılan Bilgi Kutusu’nda maliyet, ihale tarihi, proje görseli, ilişki listesi, varsa projede meydana gelmiş iş cinayetleri ve tüm bu bilgilerin derlendiği veri kaynaklarını bulabilirsiniz. Dahası, harita içinde kendi gezintinizin, yani seçkinizin görüntüsünü alabilir ve bu seçkiye özel oluşan URL adresini Bilgi Kutusu’nda bulunan Paylaş düğmesine tıklayarak sosyal mecralarda kolayca paylaşabilirsiniz. Bu sayede belirli ilişkileri tekrar tekrar görünür kılarak toplumsallaşmasına katkıda bulunabilirsiniz.
 
-Mülksüzleştirme Ağları katılıma açıktır, aşama aşama devam etmektedir. Beraber çalışmak isterseniz ya da kaynak verebileceğiniz veriler varsa mulksuzlestirme@gmail.com üzerinden bizimle iletişime geçebilirsiniz.
+Mülksüzleştirme Ağları katılıma açıktır, aşama aşama devam etmektedir. Beraber çalışmak isterseniz ya da kaynak verebileceğiniz veriler varsa <a href="mailto:mulksuzlestirme@gmail.com">mulksuzlestirme@gmail.com</a> üzerinden bizimle iletişime geçebilirsiniz.
 
 Mülksüzleştirme Ağları hakkında gelişmelerinden haberdar olmak için <a href="https://twitter.com/mulksuzlestirme">@mulksuzlestirme</a> Twitter hesabını takip edebilirsiniz.
 

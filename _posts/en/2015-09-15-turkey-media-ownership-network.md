@@ -1,6 +1,5 @@
 ---
 layout:     graph
-lang:       en
 title:      "Media Owners and Their Other Investments"
 subtitle:   "Turkey's media patrons as profit makers in the construction and energy sector"
 graph_url:  "https://graphcommons.com/graphs/77c1528d-3bef-4033-b41b-229bb1ce5a46"

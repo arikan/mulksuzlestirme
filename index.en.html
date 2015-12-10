@@ -2,29 +2,31 @@
 layout: page
 lang: en
 title: "Networks of Dispossession"
+slug: "home"
 description: "Collective data compiling and mapping on the relations of capital and power in Turkey"
 action_link: "https://graphcommons.com/hubs/mulksuzlestirme/explore"
 action_call: "Explore"
 ---
 
-{% assign posts=site.posts | where:"lang", page.lang %}
-
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">
-        <img src="{{ post.header-img }}" alt="" />
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-</div>
-<hr class="divider">
+{% for post in site.posts %}
+    {% if page.lang == post.lang %}
+    <div class="post-preview">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">
+            <img src="{{ post.header-img }}" alt="" />
+            <h2 class="post-title">
+                {{ post.title }}
+            </h2>
+            {% if post.subtitle %}
+            <h3 class="post-subtitle">
+                {{ post.subtitle }}
+            </h3>
+            {% endif %}
+        </a>
+    </div>
+    <hr class="divider">
+    {% endif %}
 {% endfor %}
+
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}

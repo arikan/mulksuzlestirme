@@ -2,6 +2,7 @@
 layout: page
 lang: en
 title: "Credits & Participation"
+slug: "credits"
 description: "Networks of Dispossession is a voluntary research group"
 header-img: "img/post-bg-02.jpg"
 ---

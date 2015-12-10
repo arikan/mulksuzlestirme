@@ -15,36 +15,20 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-
-                <!-- {% for page in site.pages %}{% if page.title %}
-                <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
-                {% endif %}{% endfor %}
-                <li>
-                    <a href="https://docs.google.com/forms/d/1iwyTBNJ_V5OY4muGbhdAfzt1PpFuG9Fuj2e7erdZLpE/viewform" target="_blank">Proje Bildir</a>
-                </li> -->
-
                 {% for menu in site.menu[page.lang] %}
-               <li>
+                <li>
                    <a href="{{ site.baseurl }}/{{menu[1].url}}">{{menu[1].name}}</a>
-               </li>
+                </li>
                 {% endfor %}
 
+                <li>
+                    <a href="https://docs.google.com/forms/d/1iwyTBNJ_V5OY4muGbhdAfzt1PpFuG9Fuj2e7erdZLpE/viewform" target="_blank">{{ site.t[page.lang]['submit_project'] }}</a>
+                </li>
+
                 <li class="lang">
-                    <!-- <a href="index.html" class="tr{%if page.lang == 'tr' %} current{% endif %}">TR</a> -->
-                    <!-- <a href="index.en.html" class="en{%if page.lang == 'en' %} current{% endif %}">EN</a> -->
-                    
                     <a href="{{ site.menu['tr'][page.slug]['url'] }}" class="tr{%if page.lang == 'tr' %} current{% endif %}">TR</a>
                     <a href="{{ site.menu['en'][page.slug]['url'] }}" class="en{%if page.lang == 'en' %} current{% endif %}">EN</a>
                 </li>
-
-                <!-- {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
-                {% for post in posts %}
-                    <li class="lang">
-                        <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-                    </li>
-                {% endfor %} -->
 
             </ul>
         </div>

@@ -1,7 +1,7 @@
 ---
 layout:     graph
 title:      "Thermal Power Plants Network"
-subtitle:   "Companies who owns and finances thermal power plants and their other investments"
+description:   "Companies who owns and finances thermal power plants and their other investments"
 graph_url:  "https://graphcommons.com/graphs/5d293d74-f1bd-46fe-b673-a597fcd0b21d"
 date:       2015-09-10 12:00:00
 author:     "Mülksüzleştirme Ağları"

@@ -3,7 +3,7 @@ title: Mülksüzleştirme Ağları
 header-img: img/3.Kopru-KuzeyMarmaraOtoyolu.jpg
 email: mulksuzlestirme@gmail.com
 description: "Mülksüzleştirme Ağları - Türkiye'de sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama"
-baseurl: ""
+baseurl: "" # jekyll serve --baseurl "/mulksuzlestirme"
 url: "http://mulksuzlestirme.org"
 twitter_username: mulksuzlestirme
 github_username:  graphcommons
@@ -43,8 +43,11 @@ t:
             subscribe: "Subscribe"
         info: "Networks of Dispossession project is created by a <a href='{{ site.baseurl }}/kunye'>collective of volunteers</a> in phases and it is <a href='{{ site.baseurl }}/kunye'>open to contributions</a>.
             <br><br>
-            <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>The Networks of Dispossession database</a> is updated on December 10th, 2015. The database contains
-            606 Company, 92 Complex Project, 83 Thermal power plant , 76 Housing porject, 60 Financing Organization, 60 Shoping Mall, 51 Government Institution, 38 Media Company, 25 Hotel, 22 Harbor, 17 Electricity Grid, 14 Hydroelectric Power Plant (HES), 10 Hospital, 9 Dam, 9 Governement Building, 8 Airport, 7 Subway, 6 Highway, 6 Mine, 5 Railroad, 4 Office, 4 Businessmens Association , 3 Stadium, 3 Gas Grid, 3 Convention Center, 3 Oil Refinery, 3 Tube, 3 Religious Building, 3 Nuclear Power Plant, 2 Natural Gas Power Plant, 2 Factory, 2 Autopark, 2 Wind Power Plant, 2 Water Works, 2 Bridge, 2 Train Station, 1 School, 1 Park, 1 Museum, 1 Seaway, 1 Underwater Tube, 1 Pier, 1 Urban Square Arrangement.
+            <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>The Networks of Dispossession database</a> is updated on December 10th, 2015 and contains in total
+            606 Company, Financing Organization, 51 Government Institution, 38 Media Firm, and 500 Project.
+            <br><br>
+            Projects are composed of
+            606 Company, 92 Complex Project, 83 Thermal power plant , 76 Housing porject, 60 Shoping Mall, 25 Hotel, 22 Harbor, 17 Electricity Grid, 14 Hydroelectric Power Plant (HES), 10 Hospital, 9 Dam, 9 Governement Building, 8 Airport, 7 Subway, 6 Highway, 6 Mine, 5 Railroad, 4 Office, 4 Businessmens Association , 3 Stadium, 3 Gas Grid, 3 Convention Center, 3 Oil Refinery, 3 Tube, 3 Religious Building, 3 Nuclear Power Plant, 2 Natural Gas Power Plant, 2 Factory, 2 Autopark, 2 Wind Power Plant, 2 Water Works, 2 Bridge, 2 Train Station, 1 School, 1 Park, 1 Museum, 1 Seaway, 1 Underwater Tube, 1 Pier, 1 Urban Square Arrangement.
             <br><br>
             This website presents selected maps extracted from the graph database. You can <a href='{{page.action_link}}' target='_blank'>explore the Network of Dispossession database</a> yourself."
         license: "Data and graphs license"
@@ -59,7 +62,10 @@ t:
         info: "Mülksüzleştirme Ağları çalışması <a href='{{ site.baseurl }}/kunye'>gönüllüler</a> tarafından aşama aşama yürütülmektedir ve <a href='{{ site.baseurl }}/kunye'>katılıma açıktır</a>.
             <br><br>
             10 Aralık 2015 itibariyle güncellenen <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>Mülksüzleştirme Ağları veritabanı</a>
-            606 Şirket, 92 Karma Proje, 83 Termik Santral, 76 Konut, 60 Finansör, 60 AVM, 51 Kamu Kurumu, 38 Medya, 25 Otel, 22 Liman, 17 Elektrik Dağıtım, 14 HES, 10 Hastane, 9 Baraj, 9 Kamu Binası, 8 Havalimanı, 7 Metro, 6 Karayolu, 6 Maden, 5 Demiryolu, 4 Ofis, 4 Birlik, 3 Stadyum, 3 Gaz Dağıtım, 3 Kongre Merkezi, 3 Rafineri, 3 Tünel, 3 Dini Tesis, 3 Nükleer Santral, 2 Doğalgaz Santrali, 2 Fabrika, 2 Otopark, 2 Rüzgar Santrali, 2 Su İşleri, 2 Köprü, 2 Tren Garı, 1 Okul, 1 Park, 1 Müze, 1 Denizyolu, 1 Tüpgeçit, 1 İskele, 1 Meydan Düzenleme
+            toplamda 606 Şirket, 60 Finansör, 51 Kamu Kurumu, 38 Medya ve 500 Proje içermektedir.
+            <br><br>
+            Projeler
+            92 Karma Proje, 83 Termik Santral, 76 Konut, 60 AVM, 25 Otel, 22 Liman, 17 Elektrik Dağıtım, 14 HES, 10 Hastane, 9 Baraj, 9 Kamu Binası, 8 Havalimanı, 7 Metro, 6 Karayolu, 6 Maden, 5 Demiryolu, 4 Ofis, 4 Birlik, 3 Stadyum, 3 Gaz Dağıtım, 3 Kongre Merkezi, 3 Rafineri, 3 Tünel, 3 Dini Tesis, 3 Nükleer Santral, 2 Doğalgaz Santrali, 2 Fabrika, 2 Otopark, 2 Rüzgar Santrali, 2 Su İşleri, 2 Köprü, 2 Tren Garı, 1 Okul, 1 Park, 1 Müze, 1 Denizyolu, 1 Tüpgeçit, 1 İskele, 1 Meydan Düzenleme
             içermektedir.
             <br><br>
             Bu sitede veritabanından çıkartılmış harita seçkilerini görmektesiniz. Siz de kendiniz veritabanından <a href='{{page.action_link}}' target='_blank'>harita çıkarmak için tıklayın.</a>"

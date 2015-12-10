@@ -51,7 +51,7 @@ t:
             <br><br>
             This website presents selected maps extracted from the graph database. You can <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>explore the Network of Dispossession database</a> yourself."
         license: "Data and graphs license"
-        submit_project: "SUBMIT PROJECT"
+        submit_project: "SUBMIT A PROJECT"
     tr:
         site_title:
             name: "Mülksüzleştirme Ağları"

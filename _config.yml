@@ -39,6 +39,7 @@ t:
             url: "index.en.html"
         newsletter:
             title: "Networks of Dispossession Newsletter"
+            subtitle: "Monthly updates and announcements"
             email: "Email address"
             subscribe: "Subscribe"
         info: "Networks of Dispossession project is created by a <a href='/kunye'>collective of volunteers</a> in phases and it is <a href='/kunye'>open to contributions</a>.
@@ -58,6 +59,7 @@ t:
             url: "index.html"
         newsletter:
             title: "Mülksüzleştirme Ağları Bülteni"
+            subtitle: "Aylık güncellemeler ve duyurular"
             email: "Email adresiniz"
             subscribe: "Abone ol"
         info: "Mülksüzleştirme Ağları çalışması <a href='/kunye'>gönüllüler</a> tarafından aşama aşama yürütülmektedir ve <a href='/kunye'>katılıma açıktır</a>.

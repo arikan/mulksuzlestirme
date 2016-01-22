@@ -1,11 +1,11 @@
 /*!
  * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2015 Start Bootstrap
+ * Copyright 2016 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lora', 'Georgia', serif;
   font-size: 20px;
   color: #404040;
 }
@@ -218,7 +218,7 @@ hr.divider {
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lora', 'Georgia', serif;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -329,6 +329,12 @@ footer .license a img {
 #mc_embed_signup input.form-control {
   font-size: 16px !important;
   height: 52px;
+}
+#mc_embed_signup label {
+  margin-bottom: 0;
+}
+#mc_embed_signup .subtitle {
+  margin-bottom: 10px;
 }
 .floating-label-form-group {
   font-size: 14px;

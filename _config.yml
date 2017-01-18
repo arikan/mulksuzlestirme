@@ -38,7 +38,7 @@ t:
     en:
         site_title:
             name: "Networks of Dispossession"
-            url: "index.en.html"
+            url: "index.en"
         newsletter:
             title: "Networks of Dispossession Newsletter"
             subtitle: "Monthly updates and announcements"

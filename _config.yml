@@ -2,7 +2,7 @@
 title: Mülksüzleştirme Ağları
 header-img: img/3.Kopru-KuzeyMarmaraOtoyolu.jpg
 email: mulksuzlestirme@gmail.com
-description: "Mülksüzleştirme Ağları - Türkiye'de sermaye-iktidar ilişkileri üzerine kolektif veri derleme ve haritalama"
+description: "Mülksüzleştirme Ağları - Sermaye-iktidar ilişkileri üzerine kolektif veri haritalama // Mapping the relations of capital and power in Turkey"
 baseurl: "" # jekyll serve --baseurl "/mulksuzlestirme"
 url: "http://mulksuzlestirme.org"
 twitter_username: mulksuzlestirme
@@ -13,7 +13,7 @@ facebook_username:  graphcommons
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 20
+# paginate: 20
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate]

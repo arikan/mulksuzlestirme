@@ -81,26 +81,26 @@ menu:
     en:
         home:
             name: "Home"
-            url: "index.en.html"
+            url: "index.en"
         about:
             name: "About"
-            url: "about.html"
+            url: "about"
         contact:
             name: "Contact"
-            url: "contact.html"
+            url: "contact"
         credits:
             name: "CREDITS & PARTICIPATION"
-            url: "credits.html"
+            url: "credits"
     tr:
         home:
             name: "Anasayfa"
-            url: "index.html"
+            url: "index"
         about:
             name: "Hakkında"
-            url: "hakkinda.html"
+            url: "hakkinda"
         contact:
             name: "İletişim"
-            url: "iletisim.html"
+            url: "iletisim"
         credits:
             name: "Künye & Katılım"
-            url: "kunye.html"
+            url: "kunye"

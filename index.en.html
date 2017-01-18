@@ -12,7 +12,7 @@ action_call: "Explore"
     {% if page.lang == post.lang %}
     <div class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">
-            <img src="{{ post.header-img }}" alt="" />
+            <img src="/{{ post.header-img }}" alt="" />
             <h2 class="post-title">
                 {{ post.title }}
             </h2>
@@ -26,6 +26,5 @@ action_call: "Explore"
     <hr class="divider">
     {% endif %}
 {% endfor %}
-
 
 {% include newsletter.html %}

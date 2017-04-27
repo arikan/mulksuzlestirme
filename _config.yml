@@ -64,16 +64,16 @@ t:
             subtitle: "Aylık güncellemeler ve duyurular"
             email: "Email adresiniz"
             subscribe: "Abone ol"
-        info: "Mülksüzleştirme Ağları çalışması <a href='/kunye'>gönüllüler</a> tarafından aşama aşama yürütülmektedir ve <a href='/kunye'>katılıma açıktır</a>.
+        info: "Mülksüzleştirme Ağları çalışması <a href='/kunye'>gönüllüler</a> tarafından yürütülmektedir ve <a href='/kunye'>katılıma açıktır</a>.
             <br><br>
-            <strong>10 Aralık 2015</strong> itibariyle güncellenen <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>Mülksüzleştirme Ağları veritabanı</a>
-            toplamda 606 Şirket, 60 Finansör, 51 Kamu Kurumu, 38 Medya ve 500 Proje içermektedir.
+            Belirli aralıklarla güncellenen <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>Mülksüzleştirme Ağları veritabanı</a>
+            700 şirket, 50 kamu kurumu, 38 medya ve 600 kadar proje içermektedir.
             <br><br>
-            Projeler
+            Veri tabanı toplamda
             92 Karma Proje, 83 Termik Santral, 76 Konut, 60 AVM, 25 Otel, 22 Liman, 17 Elektrik Dağıtım, 14 HES, 10 Hastane, 9 Baraj, 9 Kamu Binası, 8 Havalimanı, 7 Metro, 6 Karayolu, 6 Maden, 5 Demiryolu, 4 Ofis, 4 Birlik, 3 Stadyum, 3 Gaz Dağıtım, 3 Kongre Merkezi, 3 Rafineri, 3 Tünel, 3 Dini Tesis, 3 Nükleer Santral, 2 Doğalgaz Santrali, 2 Fabrika, 2 Otopark, 2 Rüzgar Santrali, 2 Su İşleri, 2 Köprü, 2 Tren Garı, 1 Okul, 1 Park, 1 Müze, 1 Denizyolu, 1 Tüpgeçit, 1 İskele, 1 Meydan Düzenleme
             içermektedir.
             <br><br>
-            Bu sitede veritabanından çıkartılmış harita seçkilerini görmektesiniz. Siz de kendiniz veritabanından <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>harita çıkarmak için tıklayın.</a>"
+            Bu sitede veritabanından çıkartılmış harita seçkilerini görmektesiniz. Siz de veritabanı kullanarak <a href='https://graphcommons.com/hubs/mulksuzlestirme' target='_blank'>Graph Commons ile kendi haritalarınızı yapabilirsiniz.</a>"
         license: "Verilerin ve haritaların lisansı"
         submit_project: "Proje Bildir"
 

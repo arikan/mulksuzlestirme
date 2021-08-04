@@ -11,7 +11,7 @@ action_call: "Haritaları keşfet"
 {% for post in site.posts %}
     {% if page.lang == post.lang %}
     <div class="post-preview">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">
+        <a href="{{ post.graph_url }}" class="{{ post.lang }}" target="_blank">
             <img src="{{ post.header-img }}" alt="" />
             <h2 class="post-title">
                 {{ post.title }}
